@@ -63,6 +63,7 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 Developed by: YUVARAJ.S
 RegisterNumber:  22008589
 ### UP COUNTER
+```
 Module upcounter(clk,a);
 input clk;
 output reg[3:0];
@@ -74,8 +75,9 @@ a[1]=(a[0]^a[1]);
 a[0]= ^a[0];
 end
 endmodule
-
+```
 ### DOWN COUNTER
+```
 Module downcounter(clk,a);
 input clk;
 output reg[3:0]a;
@@ -87,6 +89,7 @@ a[1]=(~a[0]^a[1]);
 a[0]=1^a[0];
 end
 endmodule
+```
 ## RTL LOGIC UP COUNTER AND DOWN COUNTER  
 ### UPCOUNTER :
 ![243264207-bf2999c0-6bec-47f6-915f-b636aeda4576](https://github.com/Yuvaraj878/Exp-7-Synchornous-counters-/assets/118622554/ca7cdfef-1cfa-4a65-99c6-98c20af18ac3)
